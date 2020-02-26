@@ -9,6 +9,13 @@ class ArticlesController extends Controller
     //
     function article()
     {
-        return view('articles');
+      
+
+
+
+        $myposts = \App\Post::all(); 
+        return view('articles',array(
+            'posts' => $myposts
+        ));
     }
 }

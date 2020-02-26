@@ -14,17 +14,18 @@
     <div class="top-bar-left">
       <ul class="menu">
         <li class="menu-text">Blog</li>
-        <li><a href="/">Home</a></li>
-        <li><a href="/articles">Articles</a></li>
-        <li><a href="/contact">Contact</a></li>
+        <li><a href="http://127.0.0.1:8000/">Home</a></li>
+        <li><a href="http://127.0.0.1:8000/articles">Articles</a></li>
+        <li><a href="http://127.0.0.1:8000/contact">Contact</a></li>
+        
       </ul>
     </div>
   </div>
 
   <div class="callout large primary">
     <div class="row column text-center">
-      <h1>Our Blog</h1>
-      <h2 class="subheader">Such a Simple Blog Layout</h2>
+      <h1 style =color:#04a> BLOG DCISS</h1>
+      <h2 class="subheader"></h2>
     </div>
   </div>
 

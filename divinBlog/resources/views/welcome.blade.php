@@ -5,9 +5,17 @@
     <h1>Home</h1>
 
     <ul>
-    @foreach ( $posts as $post )
     
-        <li>{{ $post->post_title }}</li>
+    @foreach ( $posts as $post )
+
+    
+        
+     <li> <a   href="{{ url('http://localhost/divinBlog/public/articles/'.$post->post_name) }}" >{{$post->post_title}}</a></li>
+     
+     
+    
+        
+      
     
     @endforeach
     </ul>

@@ -14,17 +14,19 @@ class CreatePostsTable extends Migration
     public function up()
     {
         Schema::create('posts', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->integer('user_id');
+            $table->integer('id',20);
+            
             $table->timestamp('post_date');
             $table->text('post_content');
             $table->text('post_title');
-            $table->text('post_status');
-            $table->text('post_name');
-            $table->text('post_type');
-            $table->text('post_category');
-          
-            
+            $table->string('post_status',20)->nullable();
+            $table->string('post_name',200);
+            $table->string('post_type');
+            $table->text('post_category')->nullable();
+            $table->timestamp('created_at');
+            $table->timestamp('updated_at');
+            $table->integer('user_id')->unsigned()->nullable();
+             $table->string('post_author');
 
         });
     }
@@ -38,6 +40,4 @@ class CreatePostsTable extends Migration
     {
         Schema::dropIfExists('posts');
     }
-   
- 
 }
