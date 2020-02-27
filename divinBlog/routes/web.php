@@ -20,12 +20,13 @@ Route::get('/', function () {
 Route::get('/', 'HomeController@index');
 Route::get('articles', 'ArticlesController@article');
 
-
-Route::get('/{post_name}', 'ArticlesController@show');
-Route::post('contact', ['uses' => 'EmailController@postForm', 'as' => 'storeEmail']);
-Route::get('contact', 'EmailController@getForm');
-
+Route::get('contact', 'ContactController@getForm');
+Route::post('contact', ['uses' => 'ContactController@postForm', 'as' => 'storeContact']);
    
+Route::get('/{sigle}', 'ArticlesController@show');
+//Route::post('contact', ['uses' => 'EmailController@postForm', 'as' => 'storeEmail']);
+//Route::get('contact', 'EmailController@getForm');
+
 
 
 
