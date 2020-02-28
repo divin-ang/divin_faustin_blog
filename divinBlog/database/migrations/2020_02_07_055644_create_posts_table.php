@@ -11,8 +11,10 @@ class CreatePostsTable extends Migration
      *
      * @return void
      */
+    
     public function up()
     {
+        
         Schema::create('posts', function (Blueprint $table) {
             $table->integer('id',20);
             
@@ -30,12 +32,15 @@ class CreatePostsTable extends Migration
 
         });
     }
+    
 
     /**
      * Reverse the migrations.
      *
      * @return void
      */
+
+
     public function down()
     {
         Schema::dropIfExists('posts');

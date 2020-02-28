@@ -32,7 +32,7 @@ class ContactController extends Controller
      
        
 		
-		return view('welcome');
+		return view('contact');
 	}
 	
    
