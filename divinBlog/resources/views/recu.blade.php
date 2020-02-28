@@ -3,9 +3,11 @@
 @section('content')
 
 
-      <p> Auteur(e)  :  {{$user->name}} </p>
+
    
-     <li> {{$posts->post_content }} </li>
+   <p> Votre message a été envoyé !</p>
+
+   <a href="http://127.0.0.1:8000/">  Revenir à l'accueil </a>
      
  
 

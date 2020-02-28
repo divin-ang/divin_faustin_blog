@@ -21,7 +21,7 @@ class ArticlesController extends Controller
     
     public function show($post_name) {
         $post = \App\Post::where('post_name',$post_name)->first(); //get first post with post_nam == $post_name
-        $user_name=\App\User::where('id',$post['user_id']);
+        $user_name=\App\User::where('id',$post['user_id'])->first();
       
         return view('sigle',array( //Pass the post to the view
             'posts' => $post,

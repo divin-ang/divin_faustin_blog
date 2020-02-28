@@ -25,11 +25,12 @@ class ContactRequest extends FormRequest
     {
         return [
             //
-            'contact_name'=>'alpha|min:3|max:255',
-            'contact_email' =>'email|unique:contacts',
+            'contact_name'=>'|min:3|max:255',
+            'contact_email' =>'email',
             
            
-            'contact_message'=> 'alpha|max:500|min:10'
+            'contact_message'=> '|max:500|min:7',
+           
         ];
     }
 }

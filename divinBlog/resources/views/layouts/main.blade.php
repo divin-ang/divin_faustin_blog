@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Foundation | Welcome</title>
   <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  
+
 </head>
 
 <body>
@@ -14,7 +16,7 @@
     <div class="top-bar-left">
       <ul class="menu">
         <li class="menu-text">Blog</li>
-        <li><a href="http://127.0.0.1:8000/">Home</a></li>
+        <li><a href="http://127.0.0.1:8000/">Accueil</a></li>
         <li><a href="http://127.0.0.1:8000/articles">Articles</a></li>
         <li><a href="http://127.0.0.1:8000/contact">Contact</a></li>
         
@@ -24,7 +26,7 @@
 
   <div class="callout large primary">
     <div class="row column text-center">
-      <h1 style =color:#04a> BLOG DCISS</h1>
+      <h1 style =color:#04a> Le blog</h1>
       <h2 class="subheader"></h2>
     </div>
   </div>

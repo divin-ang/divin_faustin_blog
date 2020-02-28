@@ -33,7 +33,7 @@ class CreatePostsTable extends Migration
         });
     }
     
-
+   
     /**
      * Reverse the migrations.
      *
