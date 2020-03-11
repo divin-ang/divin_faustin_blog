@@ -1,11 +1,15 @@
 @extends('../layouts/main')
 
+<link rel="stylesheet"  href="{{asset('css\app.css')}}">
 @section('content')
 
 
-      <p> Auteur(e)  :  {{$user->name}} </p>
+      <p class="author-article"> Auteur(e)  :  {{$user->name}} </p>
    
-     <li> {{$posts->post_content }} </li>
+      <div class ="complete-article" >
+     <li> {{$posts->post_content }}   </li>
+
+       </div>
      
  
 

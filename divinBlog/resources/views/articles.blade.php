@@ -3,7 +3,7 @@
 @section('content')
 
 
-<ul>
+<ul class="list_articles">
     
     @foreach ( $posts as $post )
 

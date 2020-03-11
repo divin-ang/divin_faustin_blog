@@ -1,0 +1,30 @@
+
+body{
+    .home_header{
+
+        font: 1.3em sans-serif;
+       
+        width: 15em;
+        padding-top: 5em;
+        text-align: right;
+        
+    }
+
+  
+}
+.home-articles{
+    padding-top: 2em;
+    padding-left: 2em;
+li {
+    a 
+    {color:black;
+        font:1em arial;
+       
+        
+    }
+    :hover{
+        background-color:rgba(0, 0, 255, 0.603);
+    }
+    
+}
+}

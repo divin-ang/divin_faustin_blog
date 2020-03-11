@@ -1,12 +1,11 @@
-@import "https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css";
-/*
+@import url(https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css);/*
 .row_column_text_center{
 
     h1{
         text-align: center;
         font: 2em sans-serif;
-        
-    
+
+
     }
 }
 
@@ -19,48 +18,49 @@ $font_color:rgba(255, 250, 240, 0.904);
 }
 a{
     @extend %deco;
-   
-    
+
+
 }
 .top-bar{
     background-color:$bg_menu_color;
     height: 4em;
-   
+
     .top-bar-left .menu {
-    
+
         li {
         display: inline;
         padding-right: 3em;
         color: rgba(255, 255, 255, 0.822);
-         
+
         display: inline-block;
         padding-top: 1em;
-  
+
         :hover{
             background-color:rgba(172, 255, 47, 0.486);
 
-        
+
         }
-        
 
-          
-           
-        
-        
 
-      
+
+
+
+
+
+
         font: 1.2em sans-serif;
-      
+
       a{
           color: $font_color;
- 
+
       }
     }
 
 
     }
-  
+
 
 }
 
 */
+
