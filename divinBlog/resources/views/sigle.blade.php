@@ -4,9 +4,11 @@
 @section('content')
 
 
-      <p class="author-article"> Auteur(e)  :  {{$user->name}} </p>
    
       <div class ="complete-article" >
+
+      
+      <p class="author-article"> Auteur(e)  :  {{$user->name}} </p>
      <li> {{$posts->post_content }}   </li>
 
        </div>

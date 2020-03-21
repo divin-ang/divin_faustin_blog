@@ -5,7 +5,6 @@
 body{
 .complete-article{
 
-    border:solid;
     width: 25em;
     padding-top: 2em;
     padding-left: 3em;
@@ -15,6 +14,8 @@ body{
     overflow-y:scroll; 
     overflow-x:hidden; 
     height:400px;
+    margin:0 auto;
+   
     
 }
 .author-article{
@@ -22,5 +23,11 @@ body{
     padding-bottom: 5em;
     padding-left: 5em;
     
+}
+.articles {
+    @extend .complete-article;
+    width: 50em;
+    
+
 }
 }

@@ -1,5 +1,7 @@
-@import "https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css";
-/*
+//@import "https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css";
+@import "sigle";
+@import"welcome";
+@import"contact";
 .row_column_text_center{
 
     h1{
@@ -11,17 +13,13 @@
 }
 
 $bg_menu_color:rgba(0, 0, 0, 0.966);
-$font_color:rgba(255, 250, 240, 0.904);
+$font_color:rgba(255, 250, 240, 0.904);s
 
 
 %deco{
     text-decoration: none;
 }
-a{
-    @extend %deco;
-   
-    
-}
+
 .top-bar{
     background-color:$bg_menu_color;
     height: 4em;
@@ -37,7 +35,7 @@ a{
         padding-top: 1em;
   
         :hover{
-            background-color:rgba(172, 255, 47, 0.486);
+            color:rgba(172, 255, 47, 0.486);
 
         
         }
@@ -62,5 +60,23 @@ a{
   
 
 }
+.articles-liste{
+    @extend %deco;
+    color: #000;
+    font:1em arial;
+    padding-top: 2em;
+    //text-decoration: none;
+    :hover{
+        color:green;
+        text-shadow: bonjour ;
+    }
 
-*/
+   
+        
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+   

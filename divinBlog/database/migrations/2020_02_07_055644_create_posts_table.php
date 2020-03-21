@@ -19,7 +19,7 @@ class CreatePostsTable extends Migration
             $table->integer('id',20);
             
             $table->timestamp('post_date');
-            $table->text('post_content');
+            $table->longtext('post_content');
             $table->text('post_title');
             $table->string('post_status',20)->nullable();
             $table->string('post_name',200);

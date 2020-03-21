@@ -4,9 +4,9 @@ body{
 
         font: 1.3em sans-serif;
        
-        width: 15em;
-        padding-top: 5em;
-        text-align: right;
+        
+      
+        text-align: center;
         
     }
 
@@ -15,6 +15,7 @@ body{
 .home-articles{
     padding-top: 2em;
     padding-left: 2em;
+    margin: 0 auto;
 li {
     a 
     {color:black;
@@ -23,8 +24,23 @@ li {
         
     }
     :hover{
-        background-color:rgba(0, 0, 255, 0.603);
+        color:rgba(0, 0, 255, 0.603);
     }
     
 }
+}
+
+.accueil_article{
+
+   
+    width: 25em;
+    padding-top: 5em;
+    padding-left: 3em;
+    padding-bottom: 2em;
+    padding-right: 3em;
+    background-color: rgba(0, 0, 255, 0.082);
+    overflow-y:scroll; 
+    overflow-x:hidden; 
+    height:400px;
+    margin:0 auto;
 }

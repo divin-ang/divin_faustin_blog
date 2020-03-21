@@ -30,6 +30,7 @@ class ContactRequest extends FormRequest
             
            
             'contact_message'=> '|max:500|min:7',
+          
            
         ];
     }

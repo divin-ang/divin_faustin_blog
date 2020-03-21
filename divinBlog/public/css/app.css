@@ -1,66 +1,113 @@
-@import url(https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css);/*
-.row_column_text_center{
-
-    h1{
-        text-align: center;
-        font: 2em sans-serif;
-
-
-    }
+body .complete-article,
+body .articles {
+  width: 25em;
+  padding-top: 2em;
+  padding-left: 3em;
+  padding-bottom: 2em;
+  padding-right: 3em;
+  background-color: rgba(0, 0, 255, 0.082);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 400px;
+  margin: 0 auto;
 }
 
-$bg_menu_color:rgba(0, 0, 0, 0.966);
-$font_color:rgba(255, 250, 240, 0.904);
-
-
-%deco{
-    text-decoration: none;
-}
-a{
-    @extend %deco;
-
-
-}
-.top-bar{
-    background-color:$bg_menu_color;
-    height: 4em;
-
-    .top-bar-left .menu {
-
-        li {
-        display: inline;
-        padding-right: 3em;
-        color: rgba(255, 255, 255, 0.822);
-
-        display: inline-block;
-        padding-top: 1em;
-
-        :hover{
-            background-color:rgba(172, 255, 47, 0.486);
-
-
-        }
-
-
-
-
-
-
-
-
-        font: 1.2em sans-serif;
-
-      a{
-          color: $font_color;
-
-      }
-    }
-
-
-    }
-
-
+body .author-article {
+  padding-bottom: 5em;
+  padding-left: 5em;
 }
 
-*/
+body .articles {
+  width: 50em;
+}
+
+body .home_header {
+  font: 1.3em sans-serif;
+  text-align: center;
+}
+
+.home-articles {
+  padding-top: 2em;
+  padding-left: 2em;
+  margin: 0 auto;
+}
+
+.home-articles li a {
+  color: black;
+  font: 1em arial;
+}
+
+.home-articles li :hover {
+  color: rgba(0, 0, 255, 0.603);
+}
+
+.accueil_article {
+  width: 25em;
+  padding-top: 5em;
+  padding-left: 3em;
+  padding-bottom: 2em;
+  padding-right: 3em;
+  background-color: rgba(0, 0, 255, 0.082);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.erreur {
+  color: red;
+}
+
+.formulaire {
+  width: 500px;
+  background-color: rgba(0, 0, 255, 0.082);
+  height: 400px;
+  margin: 0 auto;
+}
+
+.row_column_text_center h1 {
+  text-align: center;
+  font: 2em sans-serif;
+}
+
+s .articles-liste {
+  text-decoration: none;
+}
+
+.top-bar {
+  background-color: rgba(0, 0, 0, 0.966);
+  height: 4em;
+}
+
+.top-bar .top-bar-left .menu li {
+  display: inline;
+  padding-right: 3em;
+  color: rgba(255, 255, 255, 0.822);
+  display: inline-block;
+  padding-top: 1em;
+  font: 1.2em sans-serif;
+}
+
+.top-bar .top-bar-left .menu li :hover {
+  color: rgba(172, 255, 47, 0.486);
+}
+
+.top-bar .top-bar-left .menu li a {
+  color: rgba(255, 250, 240, 0.904);
+}
+
+.articles-liste {
+  color: #000;
+  font: 1em arial;
+  padding-top: 2em;
+}
+
+.articles-liste :hover {
+  color: green;
+  text-shadow: bonjour;
+}
+
+a {
+  text-decoration: none;
+}
 
