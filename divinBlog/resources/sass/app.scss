@@ -1,18 +1,14 @@
-<<<<<<< HEAD
+
 //@import "https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css";
 @import "sigle";
 @import"welcome";
 @import"contact";
-=======
-
-@use 'welcome';
-@use 'sigle';
 
 
 
 
 
->>>>>>> scss
+
 .row_column_text_center{
 
     h1{
@@ -72,12 +68,17 @@ $font_color:rgba(255, 250, 240, 0.904);s
   
 
 }
-.articles-liste{
-    @extend %deco;
-    color: #000;
-    font:1em arial;
+.articles{
+    width: 25em;
     padding-top: 2em;
-    //text-decoration: none;
+    padding-left: 3em;
+    padding-bottom: 2em;
+    padding-right: 3em;
+    background-color: rgba(0, 0, 255, 0.082);
+    overflow-y:scroll; 
+    overflow-x:hidden; 
+    height:400px;
+    margin:0 auto;
     :hover{
         color:green;
         text-shadow: bonjour ;
@@ -91,8 +92,3 @@ $font_color:rgba(255, 250, 240, 0.904);s
         text-decoration: none;
     }
 
-<<<<<<< HEAD
-   
-=======
-
->>>>>>> scss

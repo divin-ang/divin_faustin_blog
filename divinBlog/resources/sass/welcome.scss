@@ -1,4 +1,8 @@
 
+%couleur{
+    color:black;
+    font:1em arial; 
+}
 body{
     .home_header{
 
@@ -12,15 +16,15 @@ body{
 
   
 }
-.home-articles{
+.home-articles,.articles-liste{
     padding-top: 2em;
     padding-left: 2em;
     margin: 0 auto;
+    @extend %couleur;
 li {
     a 
-    {color:black;
-        font:1em arial;
-       
+    {
+        @extend %couleur;
         
     }
     :hover{
