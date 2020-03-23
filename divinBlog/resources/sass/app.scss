@@ -1,7 +1,18 @@
+<<<<<<< HEAD
 //@import "https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css";
 @import "sigle";
 @import"welcome";
 @import"contact";
+=======
+
+@use 'welcome';
+@use 'sigle';
+
+
+
+
+
+>>>>>>> scss
 .row_column_text_center{
 
     h1{
@@ -15,6 +26,7 @@
 $bg_menu_color:rgba(0, 0, 0, 0.966);
 $font_color:rgba(255, 250, 240, 0.904);s
 
+ 
 
 %deco{
     text-decoration: none;
@@ -79,4 +91,8 @@ $font_color:rgba(255, 250, 240, 0.904);s
         text-decoration: none;
     }
 
+<<<<<<< HEAD
    
+=======
+
+>>>>>>> scss

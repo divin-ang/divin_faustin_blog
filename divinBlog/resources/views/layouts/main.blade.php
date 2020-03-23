@@ -18,10 +18,10 @@
     <div class="top-bar-left">
       <ul class="menu">
         <li class="menu-text">Blog</li>
-        <li> <a href="http://127.0.0.1:8000/">Accueil</a></li>
+        <li> <div class="menu-topic"><a href="http://127.0.0.1:8000/">Accueil</a></div></li>
        
-        <li> <a href="http://127.0.0.1:8000/articles" title="voir la liste complète des articles">Articles</a> </li>
-        <li> <a href="http://127.0.0.1:8000/contact" title="envoyer un message">Contact</a></li>
+        <li> <div class="menu-topic" ><a href="http://127.0.0.1:8000/articles" title="voir la liste complète des articles">Articles</a> </div></li>
+        <li> <div class="menu-topic"><a href="http://127.0.0.1:8000/contact" title="envoyer un message">Contact</a></div></li>
         
       </ul>
     </div>

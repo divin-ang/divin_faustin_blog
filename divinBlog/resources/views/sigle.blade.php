@@ -6,10 +6,15 @@
 
    
       <div class ="complete-article" >
+<<<<<<< HEAD
 
       
       <p class="author-article"> Auteur(e)  :  {{$user->name}} </p>
      <li> {{$posts->post_content }}   </li>
+=======
+        <li> {{$posts->post_content }}   </li>
+     
+>>>>>>> scss
 
        </div>
      
