@@ -4,34 +4,34 @@
 @section('content')
 
 
-   
+
       <div class ="complete-article" >
 
 
-      
+
       <p class="author-article"> Auteur(e)  :  {{$user->name}} </p>
      <li> {{$posts->post_content }}   </li>
 
-        <li> {{$posts->post_content }}   </li>
-     
+
+
 
 
        </div>
-     
- 
-
-
-    
-      
-    
 
 
 
 
-   
- 
 
 
 
-    
+
+
+
+
+
+
+
+
+
+
 @endsection
