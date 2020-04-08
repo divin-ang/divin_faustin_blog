@@ -20,19 +20,19 @@
 					{!! Form::submit('Envoyer !', ['class' => 'btn btn-info pull-right']) !!}
 				{!! Form::close() !!}
 <div>
- 
+
 @endsection
 
-    
-      
-    
 
 
 
 
-   
- 
 
 
 
-    
+
+
+
+
+
+
